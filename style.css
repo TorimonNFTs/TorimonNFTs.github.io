@@ -77,7 +77,7 @@ body {
 
 .links:hover {
     filter:brightness(0.8);
-    cursor: url(./images/transheart.png) 90 25, pointer;
+    cursor: url(./images/transnigger.png), pointer;
     content: attr(title);
 }
  
