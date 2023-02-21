@@ -11,6 +11,14 @@
     vertical-align: middle;
 }
 
+.button {
+    transform: translate(0,20px);
+}
+
+marquee {
+    transform: translate(0%, 0%);
+}
+
 .fol {
     border-radius: 16px;
     max-width: 256px;
