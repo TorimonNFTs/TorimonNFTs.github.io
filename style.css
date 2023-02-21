@@ -47,7 +47,6 @@ body {
     background-repeat: repeat;
     background-size: cover;
     cursor: url(./images/rainbows.gif),default;
-	cursor: url(./images/transnigger.png),pointer;
 }
 
 .content {
