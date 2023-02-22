@@ -3,6 +3,14 @@
     
 }
 
+.headerlogo {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 16px;
+    display: inline;
+    vertical-align: middle;
+}
+
 .logo {
     max-width: 80px;
     max-height: 80px;
@@ -25,7 +33,7 @@ marquee {
     max-height: 256px;
 }
 
-h1.headertext {
+.headertext {
     font-family: 'Quicksand', sans-serif;
 	display: inline-block;
     vertical-align: middle;
@@ -34,6 +42,12 @@ h1.headertext {
 	overflow: hidden;
 	padding: 16px 12px;
 	text-overflow: ellipsis;
+    position: relative;
+    color: #FFF; 
+    text-shadow: -1px 1px 0 #000,
+                                    1px 1px 0 #000,
+                                    1px -1px 0 #000,
+                                    -1px -1px 0 #000;
 }
 
 div.header {
@@ -55,6 +69,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 24px;
 }
 
 #cb {
@@ -67,6 +82,7 @@ body {
 
 .cuteboxxx {
     padding-top: 3%;
+    padding-bottom: 3%;
 	width: 50%;
 	height: 50%;
 	background: #FFFFFF;
